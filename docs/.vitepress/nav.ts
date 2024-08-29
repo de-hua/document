@@ -9,10 +9,23 @@ export const nav = [
       { text: 'CSS', link: '/前端基础/2.css.md' },
     ],
   },
-  { text: 'JavaScript', link: '/计算机基础/1.计算机基础' },
+  {
+    text: 'JavaScript',
+    items: [
+      { text: '面试题', link: '/JavaScript/1.面试题.md' },
+      { text: '手写题', link: '/JavaScript/2.手写题.md' },
+    ],
+  },
   { text: 'TypeScript', link: '/计算机基础/1.计算机基础' },
   { text: 'Vue', link: '/计算机基础/1.计算机基础' },
-  { text: 'React', link: '/计算机基础/1.计算机基础' },
+  {
+    text: 'React',
+    items: [
+      { text: 'React', link: '/React/1.react.md' },
+      { text: 'Router', link: '/React/2.路由.md' },
+      { text: 'Redux', link: '/React/3.Redux.md' },
+    ],
+  },
   { text: 'vite', link: '/计算机基础/1.计算机基础' },
-  { text: 'webpack', link: '/计算机基础/1.计算机基础' },
+  { text: 'Webpack', link: '/webpack/1.webpack.md' },
 ]
