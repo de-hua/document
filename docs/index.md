@@ -3,17 +3,16 @@
 layout: home
 
 hero:
-  name: "乐一昂梁"
-  text: "在线文档"
+  name: '乐一昂梁'
+  text: '在线文档'
   tagline: 持续集成、内容丰富、全栈发展
-  image: 
+  image:
     src: /logo.png
     alt: logo
   actions:
     - theme: brand
-      text: 111
-      link: /markdown-examples
-  
+      text: 作者掘金
+      link: https://juejin.cn/user/1992730932948509
 
 features:
   - title: 持续集成

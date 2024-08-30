@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { nav } from './nav'
-// import { sidebar } from './sidebar'
+import { sidebar } from './sidebar'
 
 export default defineConfig({
   base: '/document/',
@@ -10,14 +10,10 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png', // 导航栏logo
     nav,
-    // sidebar,
+    sidebar,
     search: {
       provider: 'local',
     },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-    ],
-
     footer: {
       message: '创作不易请尊重他人劳动成果，未经授权禁止转载！',
     },
