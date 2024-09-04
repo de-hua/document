@@ -10,6 +10,16 @@ export const nav = [
     ],
   },
   {
+    text: 'React',
+    items: [
+      { text: 'React基础', link: '/积累/React方面/1.React基础.md' },
+      { text: 'Redux', link: '/积累/React方面/2.Redux.md' },
+      { text: 'toolkit', link: '/积累/React方面/3.Redux-toolkit.md' },
+      { text: 'zustand', link: '/积累/React方面/4.zustand.md' },
+      { text: 'React-router', link: '/积累/React方面/5.React-router.md' },
+    ],
+  },
+  {
     text: '自动化部署流程设计',
     link: '/积累/自动化部署流程设计/1.自动化部署流程设计.md',
   },
