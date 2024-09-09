@@ -20,13 +20,21 @@ export const nav = [
     ],
   },
   {
+    text: '后端',
+    items: [{ text: 'Docker', link: '/积累/后端/docker/1.docker.md' }],
+  },
+  {
     text: '自动化部署流程设计',
     link: '/积累/自动化部署流程设计/1.自动化部署流程设计.md',
   },
   {
     text: '第三方库',
-    items: [{ text: 'nvm', link: '/积累/第三方库/1.nvm.md' }],
+    items: [
+      { text: 'nvm', link: '/积累/第三方库/1.nvm.md' },
+      { text: 'React拖拽', link: '/积累/第三方库/React拖拽/初体验.md' },
+    ],
   },
+
   // ! 面试题
   {
     text: '理解八股文',
@@ -67,5 +75,10 @@ export const nav = [
         link: '/面试/uniapp/1.uniapp.md',
       },
     ],
+  },
+  // ! 简历
+  {
+    text: '积累',
+    items: [{ text: '路由处理', link: '/简历/后台管理系统/1.路由处理.md' }],
   },
 ]

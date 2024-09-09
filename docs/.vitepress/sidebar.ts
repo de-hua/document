@@ -21,20 +21,24 @@ export const sidebar = {
       ],
     },
   ],
-  '/后端/docker': [
+  '/积累/后端/docker': [
     {
       text: 'docker',
       items: [
         // 显示的是 `/guide/index.md` 页面
 
-        { text: 'dockerfile', link: '/后端/docker/2dockerfile' },
+        { text: 'dockerfile', link: '/积累/后端/docker/2.dockerfile' },
         {
           text: 'Nest编写Dockerfile',
-          link: '/后端/docker/3Nest编写Dockerfile',
+          link: '/积累/后端/docker/3,Nest编写Dockerfile',
         },
         {
           text: '提升dockerfile水平',
-          link: '/后端/docker/4提升dockerfile水平',
+          link: '/积累/后端/docker/4.提升dockerfile水平',
+        },
+        {
+          text: '部署前端项目',
+          link: '/积累/后端/docker/5.docker部署前端项目',
         },
       ],
     },
