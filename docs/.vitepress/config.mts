@@ -10,7 +10,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png', // 导航栏logo
     nav,
-    sidebar,
+    // sidebar,
     search: {
       provider: 'local',
     },
