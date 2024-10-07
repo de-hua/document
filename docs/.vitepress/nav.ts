@@ -8,6 +8,13 @@ export const nav = [
       { text: '刷题', link: '/数据结构&算法/刷题.md' },
     ],
   },
+  {
+    text: 'Javascript',
+    items: [
+      // { text: 'Javascript', link: '/数据结构&算法/数据结构.md' },
+      { text: 'Es6', link: '/学习/javaScript/Es6.md' },
+    ],
+  },
   // ! 面试题  八股文
   {
     text: '八股文',
