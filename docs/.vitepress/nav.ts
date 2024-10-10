@@ -15,6 +15,14 @@ export const nav = [
       { text: 'Es6', link: '/学习/javaScript/Es6.md' },
     ],
   },
+  // ! 第三方库
+  {
+    text: '第三方库',
+    items: [
+      // { text: 'Javascript', link: '/数据结构&算法/数据结构.md' },
+      { text: 'Git', link: '/第三方库/Git/Git.md' },
+    ],
+  },
   // ! 面试题  八股文
   {
     text: '八股文',
